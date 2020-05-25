@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>This is a cool webstie</h1>
-    <br>
-    <h3>Things about Me</h3>
-    <ul>
-        <li><a href="https://darkorin.github.io/student-bio/"> Bio</a></li>
-        <li><a href="https://darkorin.github.io/favorite-animal/"> Favorite animal</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg transparent navbar-light" id="navMain">
+
+        <!-- Dummy button for centering the navbar -->
+        <button class="btn" id="dummy" style="visibility: hidden;">Dark Mode</button>
+
+          <div class="navbar-nav mx-auto">
+            <a class="nav-item nav-link mx-4" href="">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link mx-4" href="Projects">Projects</a>
+            <a class="nav-item nav-link mx-4" href="About">About</a>
+            <a class="nav-item nav-link mx-4" href="Contact">Contact</a>
+          </div>
+        
+        <button type="button" class="btn btn-dark" id="modeSwitch">Dark Mode</button>
+
+      </nav>
+    
+   
+    <div class="container text-center">
+        <br><br><br><br><br><br>
+        <img class="portrait" src="http://placehold.it/300x300">
+        <br><br><br>
+        <h1 class="switchModes text-dark" id="intro">Hi, my name is David and I develop web pages!</h1>
+        <p class="switchModes text-dark">THIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXTTHIS IS A BUNCH OF DUMMY TEXT</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

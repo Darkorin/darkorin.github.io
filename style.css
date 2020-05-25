@@ -1,0 +1,15 @@
+body {
+    background-image: url("assets/Lightmode.png");
+}
+
+#modeSwitch {
+    border-radius: 30px;
+}
+
+.portrait {
+    border-radius: 150px;
+}
+
+.nav-link {
+    font-size: 40px;
+}

@@ -39,3 +39,7 @@ body {
 .card {
     border: 0px;
 }
+
+.card-img-top {
+    border-radius: 40px;
+}

@@ -1,5 +1,6 @@
 body {
     background-image: url("assets/Lightmode.png");
+    font-family: 'Play', sans-serif;
 }
 
 #modeSwitch {

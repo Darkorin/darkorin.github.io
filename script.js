@@ -8,9 +8,7 @@ const changeMode = () => {
     $("#navDivider").attr("class", `hr${btnMode}`);
 
     let btnList = $(".switchImg");
-    $.each(btnList, i => {
-        $(btnList[i]).attr("src", `assets/${btnMode}${btnList[i].id}.png`);
-    });
+    $.each(btnList, i => $(btnList[i]).attr("src", `assets/${btnMode}${btnList[i].id}.png`));
 
     switch (btnMode) {
         case "Dark":

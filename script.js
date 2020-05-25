@@ -1,5 +1,6 @@
 let modeBtn = $("#modeSwitch");
-let btnMode = "Dark";
+
+let btnMode = localStorage.getItem("darkorin-page-mode");
 
 const changeMode = () => {
     
@@ -20,6 +21,7 @@ const changeMode = () => {
         default:
             btnMode = "Dark";
     }
+    localStorage.setItem("darkorin-page-mode", btnMode);
     modeBtn.attr("class", `btn btn-${btnMode.toLowerCase()}`);
     modeBtn.text(`${btnMode} Mode`);
 
@@ -36,6 +38,13 @@ const changeMode = () => {
 
     let swapText = $(".switchModes");
     $.each(swapText, textSwapper);
+}
+
+if(btnMode === "Light") {
+    btnMode = "Dark";
+    changeMode();
+} else {
+    btnMode = "Dark";
 }
 
 modeBtn.on("click", changeMode);

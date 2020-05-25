@@ -5,7 +5,7 @@ const changeMode = () => {
     
     document.body.style.backgroundImage = `url("assets/${btnMode}mode.png")`;
     $("#navMain").attr("class", `navbar navbar-expand-lg transparent navbar-${btnMode.toLowerCase()}`);
-    
+    $("#navDivider").attr("class", `hr${btnMode}`);
 
     let btnList = $(".switchImg");
     $.each(btnList, i => {

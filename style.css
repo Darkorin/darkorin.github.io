@@ -3,6 +3,14 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+.hrLight {
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.hrDark {
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
 #modeSwitch {
     border-radius: 30px;
 }

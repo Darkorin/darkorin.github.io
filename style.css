@@ -35,3 +35,8 @@ body {
     height: 50px;
     width: 50px;
 }
+
+.card {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

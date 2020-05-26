@@ -5,10 +5,17 @@ https://darkorin.github.io/
 
 ## Description
 My personal website that houses my project portfolio as well as links to various professional materials about myself.
-It consists of a home page, a project page, and an about page.
+It consists of a home page with my picture and a few icon links;
+a project page which contains screenshots and links to a few of my projects and their repos;
+and an about page which has my github, linkedin, resume, email, and phone number listed.
+
 I included a button to toggle an alternate Dark Theme for the website.
 
 ![repo size](https://img.shields.io/github/repo-size/darkorin/darkorin.github.io)
+
+## Tools Used
+This project was built using HTML5, CSS, and Javascript.
+I also used the Bootstrap and jQuery libraries.
 
 ## License
 MIT License

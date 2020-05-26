@@ -7,3 +7,5 @@ https://darkorin.github.io/
 My personal website that houses my project portfolio as well as links to various professional materials about myself.
 It consists of a home page, a project page, and an about page.
 I included a button to toggle an alternate Dark Theme for the website.
+
+![repo size](https://img.shields.io/github/repo-size/darkorin/darkorin.github.io)

@@ -27,12 +27,14 @@ const changeMode = () => {
 
     const textSwapper = i => {
         let currentEle = $(swapText[i]);
+        const swapClasses = (mode1, mode2) => {
+            currentEle.removeClass(`text-${mode1}`);
+            currentEle.addClass(`text-${mode2}`);
+        }
         if (currentEle.hasClass("text-dark")) {
-            currentEle.removeClass("text-dark");
-            currentEle.addClass("text-light");
+            swapClasses("dark", "light");
         } else if (currentEle.hasClass("text-light")) {
-            currentEle.removeClass("text-light");
-            currentEle.addClass("text-dark");
+            swapClasses("light", "dark");
         }
     }
 

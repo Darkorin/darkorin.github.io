@@ -1,0 +1,42 @@
+.hrLight {
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.hrDark {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#modeSwitch {
+  border-radius: 30px;
+}
+
+.portrait {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+.nav-link {
+  font-size: 40px;
+}
+
+.linkIcon {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+
+#Email {
+  height: 50px;
+  width: 50px;
+}
+
+.card {
+  border: 0px;
+}
+
+.card-img-top {
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+}
